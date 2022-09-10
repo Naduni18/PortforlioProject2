@@ -1,0 +1,17 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\cypress run",
+    "dashboardtest": "npm run test -- --headed --record --key be998a48-3dc7-4a0c-b8a5-f0c87e2d4f04",
+    "headtest": "npm run test -- --headed",
+    "chrometest": "npm run test -- --headed --chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
